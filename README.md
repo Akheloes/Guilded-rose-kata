@@ -1,3 +1,5 @@
+Repoing my attempt on The Gilded Rose Kata, original repo here: https://github.com/emilybache/GildedRose-Refactoring-Kata
+
 # Gilded Rose
 
 This is the Gilded Rose kata in TypeScript.
