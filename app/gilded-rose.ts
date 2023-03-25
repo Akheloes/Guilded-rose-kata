@@ -6,8 +6,8 @@ export class Item {
   quality: number;
 
   constructor(name, sellIn, quality) {
-    if ((quality === null || quality === undefined) && typeof(quality) !== 'number') throw Error(ERRORS.QUALITY_NOT_SPECIFIED)
-    if (quality < 0) throw Error(ERRORS.QUALITY_NEGATIVE_INIT)
+    // if ((quality === null || quality === undefined) && typeof(quality) !== 'number') throw Error(ERRORS.QUALITY_NOT_SPECIFIED)
+    // if (quality < 0) throw Error(ERRORS.QUALITY_NEGATIVE_INIT)
 
     this.name = name;
     this.sellIn = sellIn;

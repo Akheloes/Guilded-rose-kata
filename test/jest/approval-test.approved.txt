@@ -1,0 +1,20 @@
+['foo'], -1, 0
+['foo'], -10, 8
+['foo'], -1, 48
+['foo'], 3, 47
+['Aged Brie'], 1, 1
+['Aged Brie'], 1, 41
+['Aged Brie'], 11, 1
+['Sulfuras, Hand of Ragnaros'], 0, 50
+['Sulfuras, Hand of Ragnaros'], -15, 20
+['Sulfuras, Hand of Ragnaros'], 15, 20
+['Sulfuras, Hand of Ragnaros'], 5, 20
+['Sulfuras, Hand of Ragnaros'], 5, 49
+['Sulfuras, Hand of Ragnaros'], 10, 20
+['Sulfuras, Hand of Ragnaros'], 10, 49
+['Backstage passes to a TAFKAL80ETC concert'], -16, 0
+['Backstage passes to a TAFKAL80ETC concert'], 14, 21
+['Backstage passes to a TAFKAL80ETC concert'], 4, 23
+['Backstage passes to a TAFKAL80ETC concert'], 4, 50
+['Backstage passes to a TAFKAL80ETC concert'], 9, 22
+['Backstage passes to a TAFKAL80ETC concert'], 9, 50

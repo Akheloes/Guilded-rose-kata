@@ -9,7 +9,10 @@
     "test:jest": "jest",
     "test:jest:watch": "jest --watchAll",
     "test:mocha": "nyc mocha",
-    "test:vitest": "vitest --coverage"
+    "test:vitest": "vitest --coverage",
+    "approve:test": "cat test/jest/approval-test.received.txt > test/jest/approval-test.approved.txt",
+    "approve:remove": "rm test/jest/approval-test.received.txt test/jest/approval-test.approved.txt",
+    "approve:upgrade": "npm run approval:remove && npm run approval:test"
   },
   "license": "MIT",
   "private": true,
@@ -31,5 +34,8 @@
     "typescript": "^4.4.4",
     "vite-tsconfig-paths": "^4.0.5",
     "vitest": "^0.28.5"
+  },
+  "dependencies": {
+    "approvals": "^6.0.0"
   }
 }

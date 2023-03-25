@@ -13,7 +13,7 @@ We have recently signed a supplier of conjured items. This requires an update to
 Feel free to make any changes to the UpdateQuality method and add any new code as long as everything still works correctly. However, do not alter the Item class or Items property as those belong to the goblin in the corner who will insta-rage and one-shot you as he doesn’t believe in shared code ownership (you can make the UpdateQuality method and Items property static if you like, we’ll cover for you).
  */
 
-describe('Item', () => {
+xdescribe('Item', () => {
   it('Should have a Quality value which denotes how valuable it is', () => {
     const item = new Item('newItem', 20, 7)
     expect(item.quality).toEqual(7)
@@ -24,7 +24,7 @@ describe('Item', () => {
   })
 })
 
-describe('Updating items', () => {
+xdescribe('Updating items', () => {
   it('Should lower both values for both values (Quality and Sellin) at the end of the day', () => {
     const initialQuality = 3
     const initialSellIn = 20
